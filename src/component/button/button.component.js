@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <button>{props.name}</button>
+        <button className="ls-btn">{props.name}</button>
     )
 }
 

@@ -3,6 +3,6 @@ module.exports = (api) => {
 
     return {
         presets: ['@babel/preset-env', '@babel/preset-react'],
-        plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+        plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime', 'css-modules-transform'],
     };
 };
