@@ -9,7 +9,8 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-// import { Progress } from 'antd';
+var _index = _interopRequireDefault(require("antd/lib/progress/index"));
+
 var LsProgressCircle = function LsProgressCircle(props) {
   var _props$width = props.width,
       width = _props$width === void 0 ? 80 : _props$width,
@@ -27,7 +28,17 @@ var LsProgressCircle = function LsProgressCircle(props) {
       width: pxWidth,
       height: pxWidth
     }
-  }, /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement(_index.default, {
+    type: "circle",
+    strokeColor: {
+      '0%': strokeColor[0],
+      '100%': strokeColor[100]
+    },
+    percent: percent,
+    showInfo: false,
+    width: width,
+    strokeWidth: strokeWidth
+  }), /*#__PURE__*/_react.default.createElement("div", {
     className: "lable"
   }, props.children));
 };
