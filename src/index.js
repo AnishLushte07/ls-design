@@ -1,1 +1,5 @@
-import Button from './component/button'
+import Button from './component/button';
+
+export {
+    Button,
+}
