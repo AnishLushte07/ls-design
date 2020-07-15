@@ -4,7 +4,7 @@ import { withKnobs, number, object } from "@storybook/addon-knobs";
 import LsProgressCircle from './index';
 
 import '../../styles/lsProgressCircle/index.less';
-import '../../../node_modules/antd/lib/progress/style/index.less';
+// import '../../../node_modules/antd/lib/progress/style/index.less';
 
 export default {
     title: 'Progress Circle',

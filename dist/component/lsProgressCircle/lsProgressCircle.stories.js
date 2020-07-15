@@ -15,8 +15,7 @@ var _index = _interopRequireDefault(require("./index"));
 
 require("../../styles/lsProgressCircle/index.less");
 
-require("../../../node_modules/antd/lib/progress/style/index.less");
-
+// import '../../../node_modules/antd/lib/progress/style/index.less';
 var _default = {
   title: 'Progress Circle',
   decorators: [_addonKnobs.withKnobs]

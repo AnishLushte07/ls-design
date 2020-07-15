@@ -1,5 +1,5 @@
 import React from 'react';
-import { Progress } from 'antd';
+// import { Progress } from 'antd';
 
 const LsProgressCircle = (props) => {
     const { width = 80, strokeWidth = 10, percent } = props;
@@ -8,7 +8,7 @@ const LsProgressCircle = (props) => {
 
     return (
         <div className='ls-progress-circle' style={{ width: pxWidth, height: pxWidth }}>
-            <Progress
+            {/* <Progress
                 type="circle"
                 strokeColor={{
                     '0%': strokeColor[0],
@@ -18,7 +18,7 @@ const LsProgressCircle = (props) => {
                 showInfo={false}
                 width={width}
                 strokeWidth={strokeWidth}
-            ></Progress>
+            ></Progress> */}
             <div className="lable">
                 {props.children}
             </div>
