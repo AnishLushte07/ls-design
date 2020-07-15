@@ -12,7 +12,7 @@ var _react = _interopRequireDefault(require("react"));
 var Button = function Button(props) {
   return /*#__PURE__*/_react.default.createElement("button", {
     className: "ls-btn"
-  }, props.name);
+  }, props.children);
 };
 
 var _default = Button;

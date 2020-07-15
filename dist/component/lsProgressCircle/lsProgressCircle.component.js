@@ -21,11 +21,12 @@ var LsProgressCircle = function LsProgressCircle(props) {
     '0': '#ed5e1e',
     '100': '#ff9a5a'
   };
+  var pxWidth = "".concat(width, "px");
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "ls-progress-circle",
     style: {
-      width: '80px',
-      height: '80px'
+      width: pxWidth,
+      height: pxWidth
     }
   }, /*#__PURE__*/_react.default.createElement(_antd.Progress, {
     type: "circle",

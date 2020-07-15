@@ -4,15 +4,9 @@
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "antd": "^4.4.2",
-    "build-webpack": "^1.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "storybook": "^5.3.19"
+    "react-dom": "^16.13.1"
   },
   "peerDependencies": {
     "react": "^16.13.1",
@@ -53,7 +47,9 @@
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-storysource": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^5.3.19",
@@ -65,7 +61,11 @@
     "gulp-less": "^4.0.1",
     "gulp-plumber": "^1.2.1",
     "gulp-rimraf": "^1.0.0",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.12"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "build-webpack": "^1.0.0",
+    "react-scripts": "3.4.1",
+    "storybook": "^5.3.19"
   }
 }
