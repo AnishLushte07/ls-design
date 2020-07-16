@@ -9,8 +9,6 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _index = _interopRequireDefault(require("antd/lib/progress/index"));
-
 var Button = function Button(props) {
   return /*#__PURE__*/_react.default.createElement("button", {
     className: "ls-btn"

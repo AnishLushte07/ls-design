@@ -1,5 +1,5 @@
 import React from 'react';
-import Progress from 'antd/lib/progress/index';
+import { Progress } from 'antd';
 
 const LsProgressCircle = (props) => {
     const { width = 80, strokeWidth = 10, percent } = props;
