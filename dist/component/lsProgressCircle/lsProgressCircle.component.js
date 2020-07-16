@@ -9,7 +9,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _antd = require("antd");
+var _Progress = _interopRequireDefault(require("antd/lib/Progress"));
 
 var LsProgressCircle = function LsProgressCircle(props) {
   var _props$width = props.width,
@@ -28,7 +28,7 @@ var LsProgressCircle = function LsProgressCircle(props) {
       width: pxWidth,
       height: pxWidth
     }
-  }, /*#__PURE__*/_react.default.createElement(_antd.Progress, {
+  }, /*#__PURE__*/_react.default.createElement(_Progress.default, {
     type: "circle",
     strokeColor: {
       '0%': strokeColor[0],

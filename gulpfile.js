@@ -34,7 +34,7 @@ gulp.task('style-transform', gulp.series(['copy-styles', 'lesscss']));
 
 // Bable transform
 gulp.task('bable-transform', function () {
-    return gulp.src('./src/**/*.js')
+    return gulp.src(['./src/**/*.js', '!./src/**/*.stories.js'])
         .pipe(plumber())
         .pipe(babel({}))
         .pipe(dest('./dist'))
