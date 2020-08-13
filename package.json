@@ -53,6 +53,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "auto": "^9.46.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-transform-imports": "^2.0.0",
