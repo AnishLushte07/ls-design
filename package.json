@@ -1,7 +1,7 @@
 {
   "name": "react-ui-component-libray",
   "description": "Create centralize ui component using StorybookJs and ship package to multiple repositories.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
